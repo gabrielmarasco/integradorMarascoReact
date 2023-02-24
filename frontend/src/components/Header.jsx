@@ -1,5 +1,18 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Header = function () {
-  return <h1>Hola mundo</h1>;
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to={'/'}>Home</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
 };
 
 export default Header;
