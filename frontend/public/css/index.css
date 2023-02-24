@@ -1,0 +1,19 @@
+.App-header {
+  background-color: #404040;
+  padding: 1rem;
+}
+.App-header link {
+  text-decoration: none;
+}
+
+.App-header h2 {
+  color: aquamarine;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 200px;
+}
